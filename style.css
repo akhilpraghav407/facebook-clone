@@ -86,3 +86,23 @@
     cursor: pointer;
 }
 
+.sidebar_row{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    
+}
+.sidebar_row:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sidebar_row h4{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.sidebar_row .material-symbols-outlined{
+    font-size: xx-large;
+    color: #2e81f4;
+}
+
