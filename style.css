@@ -114,9 +114,40 @@
     box-shadow: 0px 5px 17px -7px rgb(0, 0, 0, 0.75);
     border-radius: 10px;
     margin-right: 10px;
+    transition: transform 100ms ease-in;
 }
 
 .story:hover{
     transform: scale(1.07);
+}
+.story_avatar{
+    margin: 10px;
+}
+.story h4{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+.story_reel{
+    padding: 10px 0px;
+    display: flex;
+}
+.main_body{
+    display: flex;
+}
+body{
+    background: #eff2f5;
+}
+.feed{
+    flex:1;
+    padding: 30px 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    padding: 25px 10px;
+    flex: 0.33;
 }
 
