@@ -260,3 +260,43 @@ body{
 }
 
 
+@media (max-width: 768px){
+    .sidebar{
+        display: none;
+    }
+    .header_input input{
+        display: none;
+    }
+    .header_middle{
+        display:none;
+    }
+    .header_info{
+        display: none;
+    }
+    .widget{
+        display: none;
+    }
+    .feed{
+        margin-top: 20px;
+        width: 100%;
+        padding: 0px;
+    }
+    .story img{
+        width: 40px;
+    }
+
+}
+
+@media(min-width:320px){
+    .story_reel{
+        width: 100%;
+        overflow-x: scroll;
+    }
+}
+@media (min-width:769px) and (max-width: 1440px){
+    .feed{
+        width: 50%;
+        padding: 10px 50px;
+    }
+
+}
