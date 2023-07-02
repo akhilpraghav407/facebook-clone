@@ -295,7 +295,7 @@ body{
 }
 @media (min-width:769px) and (max-width: 1440px){
     .feed{
-        width: 55%;
+        width: 50%;
         padding: 10px 50px;
     }
 
